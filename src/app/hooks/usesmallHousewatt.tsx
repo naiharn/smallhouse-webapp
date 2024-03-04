@@ -11,7 +11,7 @@ interface HouseData {
     _value: number;
 }
 
-export default function smallHouseWatt() {
+export default function SmallHouse() {
 
 
     const [smallhouseData, setsmallhouseData] = useState<string | number | null>(null)
